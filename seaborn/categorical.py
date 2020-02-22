@@ -1680,7 +1680,7 @@ class _PointPlotter(_CategoricalStatPlotter):
     def __init__(self, x, y, hue, data, order, hue_order,
                  estimator, ci, n_boot, units, seed,
                  markers, linestyles, dodge, join, scale,
-                 orient, color, palette, errwidth=None, capsize=None, label=None)
+                 orient, color, palette, errwidth=None, capsize=None, label=None):
         """Initialize the plotter."""
         self.establish_variables(x, y, hue, data, orient,
                                  order, hue_order, units)
